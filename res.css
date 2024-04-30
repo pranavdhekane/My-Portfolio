@@ -22,9 +22,6 @@
 }
 
 @media screen and (max-width : 800px){
-    /* *{
-        background-color: black;
-    } */
     .p-img img {
         width: 20rem;
         height: 11rem;
@@ -34,7 +31,7 @@
     }
 
     .p-desc {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .p-link a {
