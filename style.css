@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgb(207 255 255);
+    background-color: #cfffff;
 }
 
 /* header  */
@@ -49,7 +49,7 @@ header {
 }
 
 .nav-list li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ header {
 }
 
 .project {
-    background-image: linear-gradient(to left, rgb(2 108 133), #26A69A, violet);
+    background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee);
     /* background-color: #26A69A;     */
     padding: 2rem;
     border-radius: 25px;
@@ -74,7 +74,7 @@ header {
     width: 32rem;
     height: 20rem;
     border-radius: 1rem;
-    border: 10px solid white;
+    border: 10px solid #ffffff;
 }
 
 .p-info {
@@ -98,13 +98,13 @@ header {
 .p-link a {
     height: 20%;
     font-size: 2rem;
-    color: purple;
+    color: #800080;
     text-decoration: none;
 }
 
 #p-more a {
     font-size: 1.5rem;
-    color: purple;
+    color: #800080;
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ header {
     padding: 2rem;
     margin: 2rem 4%;
     border-radius: 25px;
-    background-image: linear-gradient(to right, rgb(2 108 133), #26A69A, violet);
+    background-image: linear-gradient(to right, #026c85, #26A69A, #ee82ee);
 }
 
 #contact {
@@ -120,7 +120,7 @@ header {
     /* color: white; */
     border-image-slice: 1;
     border-radius: 20px;
-    background-color: rgb(207 255 255);
+    background-color: #cfffff;
 }
 #contact h1 {
     margin-bottom: 1vh;
@@ -140,8 +140,12 @@ header {
     margin: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
-
+    color: #551a8b;
 }
+.social-links a:hover{
+    color: #ff0000;
+}
+
 
 /* footer  */
 footer {
@@ -154,14 +158,16 @@ footer {
     padding: 0px 1rem;
     border-radius: 4rem;
     margin: 2rem 4% 1rem 4%;
-    color: white;
+    color: #fff;
 }
 
 
 
 /* Animations  */
-.p-img img , .p-info{
-    animation: visible 3s;
+.project:hover {
+    .p-img img , .p-info{
+        animation: visible 3s;
+    }
 }
 
 
