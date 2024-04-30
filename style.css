@@ -142,7 +142,7 @@ header {
     font-size: 1.2rem;
     color: #551a8b;
 }
-.social-links a:hover{
+.social-links a:active{
     color: #ff0000;
 }
 
