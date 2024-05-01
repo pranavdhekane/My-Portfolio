@@ -48,3 +48,14 @@ header{
     color: #800080;
     text-decoration: none;
 }
+
+/* footer  */
+footer {
+    display: flex;
+    height: 5rem;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 1rem;
+    color: #fff;
+}
