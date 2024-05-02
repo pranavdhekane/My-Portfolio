@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 header{
     height: 25vmin;
@@ -63,5 +64,6 @@ footer {
 @media screen and (max-width : 600px){
     .project{
         width: 100%;
+        padding: 10%;
     }
 }
