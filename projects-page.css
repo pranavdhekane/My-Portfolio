@@ -66,4 +66,10 @@ footer {
         width: 100%;
         padding: 10%;
     }
+    .p-title{
+        font-size: 5vmin;
+    }
+    .p-link a {
+        font-size: 5vmin;
+    }
 }

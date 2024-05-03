@@ -60,6 +60,19 @@ header {
     margin: 2rem 4%;
 }
 
+/* education */
+#edu-title {
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 2rem 4%;
+    border: 1px solid black;
+}
+#edu-list {
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 2rem 4%;
+}
+/* projects */
 .project {
     background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee);
     /* background-color: #26A69A;     */
