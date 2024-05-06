@@ -8,9 +8,9 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+/* body {
     background-color: #cfffff;
-}
+} */
 
 /* header  */
 header {
@@ -60,6 +60,7 @@ header {
     border-radius: 25px;
     margin: 2rem 4%;
     display: flex;
+    justify-content: space-between;
 }
 
 #intro{
@@ -70,10 +71,12 @@ header {
     align-content: center;
 }
 #main-fline {
-    font-size: 6vw;
+    font-size: 4.35vw;
+    width: 100%;
 }
 #main-sline {
     font-size: 2vw;
+    width: 100%;
 }
 #my-img{
     width: 35%;
@@ -101,7 +104,8 @@ header {
 /* projects */
 
 .project {
-    background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee);
+    /* background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee); */
+    background: linear-gradient(to left, #FFC0CB, #9370DB, #026c85);
     /* background-color: #26A69A;     */
     padding: 2rem;
     border-radius: 25px;
@@ -138,13 +142,13 @@ header {
 .p-link a {
     height: 20%;
     font-size: 2rem;
-    color: #800080;
+    color: #af03af;
     text-decoration: none;
 }
 
 #p-more a {
     font-size: 1.5rem;
-    color: #800080;
+    color: #000;
     text-decoration: none;
 }
 
@@ -160,7 +164,8 @@ header {
     /* color: white; */
     border-image-slice: 1;
     border-radius: 20px;
-    background-color: #cfffff;
+    /* background-color: #cfffff; */
+    background-color: white;
 }
 #contact h1 {
     margin-bottom: 1vh;
@@ -220,5 +225,3 @@ footer {
         opacity: 1;
     }
 }
-
-

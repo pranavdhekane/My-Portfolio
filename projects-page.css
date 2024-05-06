@@ -17,7 +17,8 @@ header{
 }
 .project {
     width: 30%;
-    background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee);
+    /* background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee); */
+    background: linear-gradient(to left, #FFC0CB, #9370DB, #026c85);
     padding: 5%;
     border-radius: 25px;
     margin: 5%;
