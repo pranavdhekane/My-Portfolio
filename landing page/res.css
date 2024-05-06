@@ -55,6 +55,18 @@
         width: 14rem;
         font-size: 0.85rem;
     }
+    #home {
+        flex-direction: column-reverse;
+    }
+    #intro{
+        width: 90%;
+    }
+    #my-img{
+        width: 100%;
+    }
+    #my-img img {
+        width: 50%;
+    }
     .project {
         display: block;
     }

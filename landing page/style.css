@@ -55,11 +55,36 @@ header {
 
 /* main  */
 #home {
-    height: 30rem;
+    /* height: 30rem; */
     border-radius: 25px;
     margin: 2rem 4%;
+    display: flex;
 }
 
+#intro{
+    width: 65%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#main-fline {
+    font-size: 6vw;
+}
+#main-sline {
+    font-size: 2vw;
+}
+#my-img{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+#my-img img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid crimson;
+}
 /* education */
 #edu-title {
     padding: 2rem;
@@ -73,6 +98,7 @@ header {
     margin: 2rem 4%;
 }
 /* projects */
+
 .project {
     background-image: linear-gradient(to left, #026c85, #26A69A, #ee82ee);
     /* background-color: #26A69A;     */
