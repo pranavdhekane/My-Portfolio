@@ -56,13 +56,14 @@ header {
 /* main  */
 #home {
     /* height: 30rem; */
+    width: 90%;
     border-radius: 25px;
     margin: 2rem 4%;
     display: flex;
 }
 
 #intro{
-    width: 65%;
+    width: 55%;
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
