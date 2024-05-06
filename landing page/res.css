@@ -61,6 +61,12 @@
     #intro{
         width: 90%;
     }
+    #main-fline {
+        font-size: 2.2rem;
+    }
+    #main-sline {
+        font-size: 1.25rem;
+    }
     #my-img{
         width: 100%;
     }
