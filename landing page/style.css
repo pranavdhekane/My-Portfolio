@@ -20,8 +20,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0px 1rem;
-    border-radius: 4rem;
-    margin: 2rem 4%;
+    /* border-radius: 4rem; */
+    /* margin: 2rem 4%; */
 }
 
 .logo {
@@ -201,15 +201,15 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 0px 1rem;
-    border-radius: 4rem;
-    margin: 2rem 4% 1rem 4%;
+    /* border-radius: 4rem; */
+    /* margin: 2rem 4% 1rem 4%; */
     color: #fff;
 }
 
 
 
 /* Animations  */
-.project:hover {
+/* .project:hover {
     .p-img img , .p-info{
         animation: visible 3s;
     }
@@ -224,4 +224,4 @@ footer {
     100% {
         opacity: 1;
     }
-}
+} */

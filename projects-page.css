@@ -51,6 +51,18 @@ header{
     text-decoration: none;
 }
 
+
+/* back-btn */
+#back-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vmin;
+}
+
+#back-btn{
+    text-decoration: none;
+}
 /* footer  */
 footer {
     display: flex;
