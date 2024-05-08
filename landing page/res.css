@@ -85,6 +85,9 @@
     .p-img img {
         margin-bottom: 1rem;
     }   
+    footer {
+        height: 4.2rem;
+    }
 }
 
 @media screen and (max-width : 450px){
