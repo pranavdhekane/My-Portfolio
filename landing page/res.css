@@ -1,48 +1,3 @@
-@media screen and (max-width : 1200px) {
-    .p-img img {
-        width: 24rem;
-        height: 15rem;
-    }
-
-    .p-title {
-        font-size: 2rem;
-    }
-
-    .p-desc {
-        font-size: 1rem;
-    }
-
-    .p-link a {
-        font-size: 1.5rem;
-    }
-
-    #p-more a {
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (max-width : 800px){
-    .p-img img {
-        width: 20rem;
-        height: 11rem;
-    }
-    .p-title {
-        font-size: 1.6rem;
-    }
-
-    .p-desc {
-        font-size: 0.8rem;
-    }
-
-    .p-link a {
-        font-size: 1.1rem;
-    }
-
-    #p-more a {
-        font-size: 1.4rem;
-    }
-}
-
 @media screen and (max-width:700px){
     header{
         height: 4.2rem;
@@ -73,7 +28,11 @@
     #my-img img {
         width: 80%;
     }
-    .project {
+    .section-title{
+        font-size: 1rem;
+        padding: 7%;
+    }
+    /* .project {
         display: block;
     }
     .p-info{
@@ -84,15 +43,27 @@
     }
     .p-img img {
         margin-bottom: 1rem;
-    }   
+    }    */
     footer {
         height: 4.2rem;
     }
 }
 
-@media screen and (max-width : 450px){
+/* @media screen and (max-width : 450px){
     .p-img img {
         width: 15rem;
         height: 9rem;
+    }
+} */
+@media screen and (max-width : 600px){
+    .project{
+        width: 100%;
+        padding: 10%;
+    }
+    .p-title{
+        font-size: 6vmin;
+    }
+    .p-link a {
+        font-size: 5vmin;
     }
 }
