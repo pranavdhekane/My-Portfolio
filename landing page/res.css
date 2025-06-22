@@ -29,8 +29,11 @@
         width: 80%;
     }
     .section-title{
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 7%;
+    }
+    #about-me-text{
+        font-size: 1rem;
     }
     /* .project {
         display: block;

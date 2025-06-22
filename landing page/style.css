@@ -109,8 +109,39 @@ header {
 
 /* about me */
 #about-me-text{
-    margin: 10% 10%;
+    margin: 3rem 10%;
     font-size: 1.5rem;
+}
+
+/* skills */
+#skill-container{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    max-height: fit-content;
+    min-height: 10rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.skill {
+    height: 3rem;
+    width: 3rem;
+    margin: .7rem;
+    box-shadow: 0 0 10px 1px #9e7de0;
+    padding: .5rem;
+    border-radius: 10px;
+    transition: height 0.2s ease-out, width 0.2s ease-out;
+}
+
+.skill:hover {
+    height: 4rem;
+    width: 4rem;
+}
+
+.skill img {
+    height: 100%;
 }
 
 /* projects */
